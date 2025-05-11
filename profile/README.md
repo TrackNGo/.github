@@ -4,22 +4,34 @@ A comprehensive digital solution for public transportation in Sri Lanka, providi
 ---
 
 ## 📑 Table of Contents
-- [Features](#features)
-  - [User Features](#user-features)
-  - [Conductor Features](#conductor-features)
-  - [Admin Features](#admin-features)
-- [🚀 Tech Stack](#-tech-stack)
-  - [Backend](#backend)
-  - [Frontend](#frontend)
-  - [Authentication & Validation](#authentication--validation)
-- [📦 Package Management](#-package-management)
-- [🚦 Getting Started](#-getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Setup Steps](#setup-steps)
-  - [Troubleshooting Common Issues](#troubleshooting-common-issues)
-- [🤝 Contributing](#-contributing)
-  - [Commit Message Convention](#commit-message-convention)
-- [Conclusion](#conclusion)
+- [Smart Public Transport App](#smart-public-transport-app)
+  - [📑 Table of Contents](#-table-of-contents)
+  - [Features](#features)
+    - [User Features](#user-features)
+    - [Conductor Features](#conductor-features)
+    - [Admin Features](#admin-features)
+  - [🎥 Demo](#-demo)
+    - [Live Application Walkthrough](#live-application-walkthrough)
+  - [🚀 Tech Stack](#-tech-stack)
+    - [Backend](#backend)
+    - [Frontend](#frontend)
+    - [Authentication \& Validation](#authentication--validation)
+  - [📦 Package Management](#-package-management)
+    - [Adding Dependencies](#adding-dependencies)
+    - [Updating Dependencies](#updating-dependencies)
+  - [🎨 Interface Designs](#-interface-designs)
+    - [Conductor Interfaces](#conductor-interfaces)
+    - [User Interfaces](#user-interfaces)
+    - [Admin Interfaces](#admin-interfaces)
+  - [📚 Documentation Repository](#-documentation-repository)
+  - [👥 Team Members](#-team-members)
+    - [Troubleshooting Common Issues](#troubleshooting-common-issues)
+    - [🤝 Contributing](#-contributing)
+    - [Commit Message Convention](#commit-message-convention)
+    - [Types:](#types)
+    - [Rules:](#rules)
+    - [Breaking Changes:](#breaking-changes)
+    - [Conclusion](#conclusion)
 
 ---
 
@@ -46,6 +58,12 @@ A comprehensive digital solution for public transportation in Sri Lanka, providi
 - **User & Conductor Activity Reports**: Monitor user activity, lost item claims, and feedback metrics.
 
 ---
+
+## 🎥 Demo 
+
+### Live Application Walkthrough
+[![TrackNGo Smart Public Transport Demo](https://img.youtube.com/vi/boOtgpuamzw/0.jpg)](https://www.youtube.com/watch?v=boOtgpuamzw)
+
 ## 🚀 Tech Stack
 
 ### Backend
@@ -80,15 +98,15 @@ npm update
 
 ---
 
-### 🚦 Getting Started
+<!-- ### 🚦 Getting Started
 ## Prerequisites
 - Node.js: [Download here](#https://nodejs.org/).
 - MongoDB: Local or cloud-based MongoDB setup. [See MongoDB Atlas](https://www.mongodb.com/atlas/database).
 - Postman: For API testing (optional). [Download here](https://www.postman.com/).
 
----
+--- 
 
-### Setup Steps
+<!-- ### Setup Steps
 <!--
 1. Clone the repository:
 
@@ -156,7 +174,66 @@ npm update
     ```
 
 This command will start the server, and you can access the application at `http://localhost:3000`. !-->
+
+
+## 🎨 Interface Designs
+
+### Conductor Interfaces
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+| **(a) Conductor Login**<br>![Conductor Login](../Screenshots/Conductor/(a)%20Conductor%20Login.png) | **(b) Change Password**<br>![Change Password](../Screenshots/Conductor/(b)%20Change%20Password.png) | **(c) Conductor Dashboard**<br>![Conductor Dashboard](../Screenshots/Conductor/(c)%20Conductor%20Dashboard.png) |
+| **(d) Emergency Report View**<br>![Emergency Report View](../Screenshots/Conductor/(d)%20Emergency%20Report%20View.png) | 
+
 ---
+
+### User Interfaces
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+| **(a) User HomePage**<br>![User HomePage](../Screenshots/User/a.%20User%20HomePage%20.png) | **(b) Bus Search By Route**<br>![Bus Search By Route](../Screenshots/User/b.%20Bus%20Search%20By%20Route.png) | **(c) Bus Fare Estimator**<br>![Bus Fare Estimator](../Screenshots/User/c.%20Bus%20Fare%20Estimator.png) |
+| **(d) Bus Tracking 01**<br>![Bus Tracking 01](../Screenshots/User/d.%20Bus%20Tracking%2001.png) | **(e) Bus Tracking 02**<br>![Bus Tracking 02](../Screenshots/User/e.%20Bus%20Tracking%2002.png) | **(f) Lost and Found**<br>![Lost and Found](../Screenshots/User/f.%20Lost%20and%20Found.png) |
+| **(g) All Lost and Found Items**<br>![All Lost and Found Items](../Screenshots/User/g.%20All%20Lost%20and%20Found%20Items.png) | **(h) Report Found Item**<br>![Report Found Item](../Screenshots/User/h.%20Report%20Found%20Item.png) | **(i) Report Lost Item**<br>![Report Lost Item](../Screenshots/User/i.%20Report%20Lost%20Item.png) |
+| **(j) Time Table**<br>![Time Table](../Screenshots/User/j.%20Time%20Table.png) | **(k) Time Table View**<br>![Time Table View](../Screenshots/User/k.%20Time%20Table%20View.png) | **(l) Submit Report**<br>![Submit Report](../Screenshots/User/l.%20Submit%20Report.png) |
+| **(m) News View**<br>![News View](../Screenshots/User/m.%20News%20View.png) | **(n) Contact Us**<br>![Contact Us](../Screenshots/User/n.%20Contact%20Us.png) |
+
+---
+
+### Admin Interfaces
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+| **(a) Admin Login**<br>![Admin Login](../Screenshots/Admin/a.%20Admin%20Login.png) | **(b) Admin Dashboard**<br>![Admin Dashboard](../Screenshots/Admin/b.%20Admin%20Dashboard.png) | **(c) Admin Accounts**<br>![Admin Accounts](../Screenshots/Admin/c.%20Admin%20Accounts.png) |
+| **(d) Admin Change Password**<br>![Admin Change Password](../Screenshots/Admin/d.%20Admin%20Change%20Password.png) | **(e) Admin All Accounts**<br>![Admin All Accounts](../Screenshots/Admin/e.%20Admin%20All%20Accounts.png) | **(f) Admin Create Account**<br>![Admin Create Account](../Screenshots/Admin/f.%20Admin%20Create%20Account.png) |
+| **(g) Bus Dashboard**<br>![Bus Dashboard](../Screenshots/Admin/g.%20Bus%20Dashboard.png) | **(h) Admin Bus View**<br>![Admin Bus View](../Screenshots/Admin/h.%20Admin%20Bus%20View.png) | **(i) Admin Add Bus**<br>![Admin Add Bus](../Screenshots/Admin/i.%20Admin%20Add%20Bus.png) |
+| **(j) Admin Add Bus Route**<br>![Admin Add Bus Route](../Screenshots/Admin/j.%20Admin%20Add%20Bus%20Route.png) | **(k) Bus Details Edit**<br>![Bus Details Edit](../Screenshots/Admin/k.%20Bus%20Details%20Edit.png) | **(l) Admin Timetable**<br>![Admin Timetable](../Screenshots/Admin/l.%20Admin%20Timetable.png) |
+| **(m) Add Timetable**<br>![Add Timetable](../Screenshots/Admin/m.%20Add%20Timetable.png) | **(n) Fare Estimate View**<br>![Fare Estimate View](../Screenshots/Admin/n.%20Fare%20Estimate%20View.png) | **(o) Add Fare Estimate**<br>![Add Fare Estimate](../Screenshots/Admin/o.%20Add%20Fare%20Estimate%20%20.png) |
+| **(p) Reports View**<br>![Reports View](../Screenshots/Admin/p.%20Reports%20View.png) | **(q) Report View**<br>![Report View](../Screenshots/Admin/q.%20Report%20View.png) | **(r) Technical and Requests**<br>![Technical and Requests](../Screenshots/Admin/r.%20Technical%20and%20Requests.png) |
+| **(s) View Submission**<br>![View Submission](../Screenshots/Admin/s.%20View%20Submission.png) |
+
+## 📚 Documentation Repository
+The project documentation includes:
+- Initial Project Proposal Document
+- Proposal Presentation Deck
+- Progress Presentation Slides
+- Final Presentation Materials
+- Final Technical Report
+- All interface design specifications
+- System architecture diagrams
+- User manuals and technical guides
+
+---
+
+## 👥 Team Members
+1. **Mr. Nalawansa U.K** - 2020/ICT/07
+2. **Mr. Bandara R.M.M.T** - 2020/ICT/49
+3. **Mr. Kalhara K.A.T** - 2020/ICT/32
+4. **Mr. Naveen P.R** - 2020/ICT/23
+5. **Ms. M.T.F.Shazna** - 2020/ICT/118
+6. **Ms. Dhanapala D.M.C.S** - 2020/ICT/36
+7. **Ms. Perera KNR** - 2020/ICT/88
+
+**Project Supervisor:**  
+Mr. K. Mathanaharan
+Lecturer 
+University of Vavuniya
 
 ### Troubleshooting Common Issues
 
